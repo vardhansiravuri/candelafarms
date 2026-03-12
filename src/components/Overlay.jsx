@@ -24,7 +24,7 @@ function Navbar({ scrollProgress }) {
         src="/candela-farms-logo.png"
         alt="Candela Farms"
         style={{
-          height: '72px',
+          height: 'clamp(80px, 12vw, 120px)',
           width: 'auto',
           objectFit: 'contain',
           display: 'block',
